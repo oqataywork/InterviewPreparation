@@ -1,0 +1,2 @@
+﻿1) Имя конструктора при создании анонимного метода не указывается
+MyDelegate md = new delegate {Console.WriteLine("Hello!");};
