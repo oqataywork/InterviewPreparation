@@ -3,21 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesWithoutParams", "DelegatesAndLambda\DelegatesWithoutParams.csproj", "{D326E181-E2AD-40E5-99C8-A5C168EB9337}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegatesWithoutParams", "DelegatesAndLambda\DelegatesWithoutParams.csproj", "{D326E181-E2AD-40E5-99C8-A5C168EB9337}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesWithParams", "Delegates1\DelegatesWithParams.csproj", "{78957CB2-984E-447B-9F4B-73648039918E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegatesWithParams", "Delegates1\DelegatesWithParams.csproj", "{78957CB2-984E-447B-9F4B-73648039918E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrouppedDelegates", "GrouppedDelegates\GrouppedDelegates.csproj", "{0960D480-C3CA-4441-B5F2-62D32315BA62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrouppedDelegates", "GrouppedDelegates\GrouppedDelegates.csproj", "{0960D480-C3CA-4441-B5F2-62D32315BA62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateMethod", "DelegateMethod\DelegateMethod.csproj", "{F8BC7352-26E8-4D0C-BF26-A061EA8189BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateMethod", "DelegateMethod\DelegateMethod.csproj", "{F8BC7352-26E8-4D0C-BF26-A061EA8189BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnonMethods", "AnonMethods\AnonMethods.csproj", "{C86DF67B-5AB3-4BF1-8A81-26242A91A230}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnonMethods", "AnonMethods\AnonMethods.csproj", "{C86DF67B-5AB3-4BF1-8A81-26242A91A230}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateAssumptionProcess", "DelegateAssumptionProcess\DelegateAssumptionProcess.csproj", "{C4EBC7CA-5D98-4BA4-899D-44A7D7712F5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateAssumptionProcess", "DelegateAssumptionProcess\DelegateAssumptionProcess.csproj", "{C4EBC7CA-5D98-4BA4-899D-44A7D7712F5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaExpressions", "LambdaExpressions\LambdaExpressions.csproj", "{12870105-5656-4172-BBA7-193210AABCAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaExpressions", "LambdaExpressions\LambdaExpressions.csproj", "{12870105-5656-4172-BBA7-193210AABCAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaStatements", "LambdaOperators\LambdaStatements.csproj", "{BEADCC53-8934-4E80-AFFF-CB2F76D527D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaStatements", "LambdaOperators\LambdaStatements.csproj", "{BEADCC53-8934-4E80-AFFF-CB2F76D527D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncAwait", "AsyncAwait\AsyncAwait.csproj", "{CFCFCD52-1630-494A-883F-63DBC0C83DEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Delegates", "Delegates", "{91FF553A-C80E-4CFD-927D-1D1504B542DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AnonFunc", "AnonFunc", "{18F6A5E4-BE14-4243-A133-548A9322138D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ALotOfTheory", "ALotOfTheory\ALotOfTheory.csproj", "{B6F69347-B93F-49D5-A092-816003E9243B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,9 +65,27 @@ Global
 		{BEADCC53-8934-4E80-AFFF-CB2F76D527D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEADCC53-8934-4E80-AFFF-CB2F76D527D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEADCC53-8934-4E80-AFFF-CB2F76D527D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFCFCD52-1630-494A-883F-63DBC0C83DEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFCFCD52-1630-494A-883F-63DBC0C83DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFCFCD52-1630-494A-883F-63DBC0C83DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFCFCD52-1630-494A-883F-63DBC0C83DEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6F69347-B93F-49D5-A092-816003E9243B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6F69347-B93F-49D5-A092-816003E9243B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6F69347-B93F-49D5-A092-816003E9243B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6F69347-B93F-49D5-A092-816003E9243B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D326E181-E2AD-40E5-99C8-A5C168EB9337} = {91FF553A-C80E-4CFD-927D-1D1504B542DC}
+		{78957CB2-984E-447B-9F4B-73648039918E} = {91FF553A-C80E-4CFD-927D-1D1504B542DC}
+		{0960D480-C3CA-4441-B5F2-62D32315BA62} = {18F6A5E4-BE14-4243-A133-548A9322138D}
+		{F8BC7352-26E8-4D0C-BF26-A061EA8189BA} = {91FF553A-C80E-4CFD-927D-1D1504B542DC}
+		{C86DF67B-5AB3-4BF1-8A81-26242A91A230} = {18F6A5E4-BE14-4243-A133-548A9322138D}
+		{C4EBC7CA-5D98-4BA4-899D-44A7D7712F5B} = {91FF553A-C80E-4CFD-927D-1D1504B542DC}
+		{12870105-5656-4172-BBA7-193210AABCAD} = {18F6A5E4-BE14-4243-A133-548A9322138D}
+		{BEADCC53-8934-4E80-AFFF-CB2F76D527D6} = {18F6A5E4-BE14-4243-A133-548A9322138D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4D7EB37B-8325-435A-B79F-57CAE67138D4}
